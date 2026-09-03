@@ -1,0 +1,17 @@
+title:
+  en: "Calibrating Trust in AI Assistance"
+  zh: "校准对 AI 助手的信任"
+summary:
+  en: "Trustworthy interaction is not about maximizing confidence, but helping people rely on an output appropriately."
+  zh: "可信交互不是让人尽可能相信系统，而是帮助人对具体输出形成恰当依赖。"
+publishedAt: "2026-08-24"
+kind: research
+tags:
+  - human-ai-interaction
+  - trust
+  - responsible-ai
+featured: true
+demo: true
+readingMinutes:
+  en: 4
+  zh: 4

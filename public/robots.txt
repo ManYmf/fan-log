@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fan-log.mex456898.chatgpt.site/sitemap.xml

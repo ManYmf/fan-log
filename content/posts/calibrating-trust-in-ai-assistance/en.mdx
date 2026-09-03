@@ -1,0 +1,50 @@
+> **Demo article.** This is a conceptual design note created for the sample site. It does not report a deployed system, user study, or personal research achievement.
+
+## Trust is not a setting
+
+When people ask whether an AI system is trustworthy, the question sounds binary. In practice, trust changes across tasks. A system may be dependable at reformatting a list, useful but fallible when summarizing an unfamiliar paper, and inappropriate as the sole basis for a consequential decision.
+
+The design problem is therefore not to maximize trust. It is to help users place the right amount of trust in a particular output, at a particular moment. Too little trust wastes useful assistance; too much trust hides errors behind fluent language. Calibration lives between those failures.
+
+This idea extends a long tradition of treating computers as collaborators that augment human reasoning, while contemporary guidance for human–AI interaction emphasizes setting expectations, supporting correction, and adapting assistance over time [@licklider1960symbiosis; @amershi2019guidelines]. Research on automation has likewise distinguished appropriate use from misuse and disuse [@parasuraman1997automation; @lee2004trust]. The important unit is not the system in isolation, but the human–system relationship as it develops through use.
+
+## Make uncertainty actionable
+
+A percentage alone rarely tells someone what to do. “82% confident” can look scientific while concealing how the estimate was produced, whether relevant evidence is missing, or how costly an error would be. Useful uncertainty needs a consequence and a next step.
+
+An interface might choose its assistance mode from the impact of a decision and the uncertainty surrounding the output:
+
+```ts
+type DecisionContext = {
+  impact: "low" | "medium" | "high";
+  uncertainty: "low" | "medium" | "high";
+};
+
+export function assistanceMode(context: DecisionContext) {
+  if (context.impact === "high" || context.uncertainty === "high") {
+    return {
+      mode: "verify",
+      showSources: true,
+      inviteAlternatives: true,
+      message: "Treat this as a draft; review the evidence before acting.",
+    };
+  }
+
+  return {
+    mode: "assist",
+    showSources: false,
+    inviteAlternatives: false,
+    message: "You can continue, revise, or inspect how this was produced.",
+  };
+}
+```
+
+This snippet is not a universal trust formula. It illustrates a product principle: the interface should escalate support when either the stakes or the uncertainty increases. Crucially, the user must still be able to inspect and override the system’s framing.
+
+## Trust grows through repair
+
+Accuracy matters, but a trustworthy interaction also depends on what happens after a mistake. Does the system acknowledge correction? Can the user see which parts of the output changed? Does it repeat the same failure while claiming to have learned?
+
+Good repair mechanisms make error legible. They preserve the original suggestion, show the revision, and explain the scope of the correction without pretending that one fix guarantees future reliability. This creates evidence the user can evaluate over time.
+
+Calibration is not a single warning shown during onboarding. It is a rhythm: expectation, action, feedback, and repair. The interface earns appropriate reliance by making its capabilities observable and its limits encounterable. The best outcome is not a user who always accepts or always doubts. It is a user who knows when to proceed quickly, when to inspect, and when to stop.

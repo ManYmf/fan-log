@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fan（凡）’s Log</title>
+    <link>https://fan-log.mex456898.chatgpt.site</link>
+    <description>A bilingual field notebook on human–AI interaction, knowledge work, and attentive living. 一本记录人机交互、知识工作与专注生活的双语田野笔记。</description>
+    <language>en-zh</language>
+    <item>
+      <title>Interfaces as Epistemic Partners / 作为认识伙伴的界面</title>
+      <link>https://fan-log.mex456898.chatgpt.site/writing/interfaces-as-epistemic-partners/</link>
+      <guid isPermaLink="true">https://fan-log.mex456898.chatgpt.site/writing/interfaces-as-epistemic-partners/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category>Research note / 研究札记</category>
+      <description>An interface does more than deliver answers: it shapes what can be questioned, inspected, and revised. 界面不只传递答案，也塑造什么可以被追问、检查与修正。</description>
+    </item>
+    <item>
+      <title>Calibrating Trust in AI Assistance / 校准对 AI 助手的信任</title>
+      <link>https://fan-log.mex456898.chatgpt.site/writing/calibrating-trust-in-ai-assistance/</link>
+      <guid isPermaLink="true">https://fan-log.mex456898.chatgpt.site/writing/calibrating-trust-in-ai-assistance/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Research note / 研究札记</category>
+      <description>Trustworthy interaction is not about maximizing confidence, but helping people rely on an output appropriately. 可信交互不是让人尽可能相信系统，而是帮助人对具体输出形成恰当依赖。</description>
+    </item>
+    <item>
+      <title>The Quiet Work of Attention / 注意力的静默工作</title>
+      <link>https://fan-log.mex456898.chatgpt.site/writing/the-quiet-work-of-attention/</link>
+      <guid isPermaLink="true">https://fan-log.mex456898.chatgpt.site/writing/the-quiet-work-of-attention/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <category>Essay / 随笔</category>
+      <description>Attention does more than select an object. It gives experience enough time to acquire edges and weight. 注意力不只选择对象，也让经验获得足够的时间，慢慢显出边缘与重量。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+statement:
+  en: "I use design inquiry to study how human–AI interfaces shape judgment, trust, and the everyday practice of knowledge work."
+  zh: "我以设计探究为方法，关注人机界面如何塑造判断、信任与日常知识实践。"
+areas:
+  - id: human-ai-collaboration
+    title:
+      en: "Human–AI collaboration"
+      zh: "人机协作"
+    description:
+      en: "Interfaces that preserve human judgment while making machine assistance inspectable and revisable."
+      zh: "让机器辅助可检查、可修正，同时保留人的判断能力。"
+  - id: trust-calibration
+    title:
+      en: "Trust calibration"
+      zh: "信任校准"
+    description:
+      en: "How uncertainty, explanation, and repair help people rely on AI appropriately."
+      zh: "不确定性、解释与错误修复如何帮助人们恰当地依赖 AI。"
+  - id: tools-for-thought
+    title:
+      en: "Tools for thought"
+      zh: "思考工具"
+    description:
+      en: "Digital environments that support attention, reflection, and durable knowledge."
+      zh: "支持注意、反思与长期知识积累的数字环境。"
+projects: []
+publications: []
