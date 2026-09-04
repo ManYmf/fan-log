@@ -6,6 +6,8 @@
 
 Target public repository: [`ManYmf/fan-log`](https://github.com/ManYmf/fan-log)
 
+> **Owner guide / 站长操作说明书：** [中文写作、跨电脑同步与发布全流程](./OWNER-GUIDE.zh-CN.md)
+
 ## Stack
 
 - Vinext, React, TypeScript, and shadcn components
