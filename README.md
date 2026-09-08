@@ -7,6 +7,8 @@
 Target public repository: [`ManYmf/fan-log`](https://github.com/ManYmf/fan-log)
 
 > **Owner guide / 站长操作说明书：** [中文写作、跨电脑同步与发布全流程](./OWNER-GUIDE.zh-CN.md)
+>
+> **Chinese draft template / 中文草稿模板：** [只写中文与资料来源，英文翻译和发布交给 Codex](./templates/中文文章草稿模板.md)
 
 ## Stack
 

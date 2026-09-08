@@ -88,14 +88,14 @@ export default async function PostPage({ params }: PageProps) {
 
           <div className="article-content">
             <section id="article-en" className="language-section" lang="en">
-              <div className="language-heading"><span>01 / ENGLISH</span><span>Original demonstration text</span></div>
+              <div className="language-heading"><span>01 / ENGLISH</span><span>Complete English version</span></div>
               <article className="prose"><EnContent components={mdxComponents} /></article>
             </section>
 
             <div className="language-divider" aria-hidden="true"><span>EN</span><CornerDownRight size={17} /><span>中文</span></div>
 
             <section id="article-zh" className="language-section" lang="zh-CN">
-              <div className="language-heading"><span>02 / 中文</span><span>完整中文译文</span></div>
+              <div className="language-heading"><span>02 / 中文</span><span>完整中文版本</span></div>
               <article className="prose prose-zh"><ZhContent components={mdxComponents} /></article>
             </section>
           </div>
