@@ -1,6 +1,6 @@
 # 凡的笔记
 
-![青蓝暮色中的书桌与远山](.gitbook/assets/fan-notes-cover.jpg)
+![](.gitbook/assets/fan-notes-cover.jpg)
 
 **关于人与机器的观察札记**
 
