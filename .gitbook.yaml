@@ -1,0 +1,5 @@
+# 将 GitBook 空间映射到仓库根目录，仅发布 gitbook/ 中的内容。
+root: ./gitbook/
+structure:
+  readme: README.md
+  summary: SUMMARY.md
