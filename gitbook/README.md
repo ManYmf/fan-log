@@ -1,4 +1,6 @@
-# 凡的笔记
+# 你好！
+
+## 欢迎来到我的博客！
 
 ![](.gitbook/assets/fan-notes-cover.jpg)
 
