@@ -17,7 +17,8 @@ gitbook/
   README.md                   首页
   SUMMARY.md                  页面目录
   writing/                    写作索引和三篇中文文章
-  research.md                 研究
+  research.md                 研究总览
+  research/                   独立研究条目
   archive.md                  归档
   tags.md                     标签
   about.md                    关于
@@ -34,7 +35,7 @@ templates/
 
 1. 本地写作前先拉取最新提交，再复制[中文文章草稿模板](templates/中文文章草稿模板.md)到 `.drafts-private/`；也可以直接在 GitBook 中创建修改草稿。
 2. 每篇文章保留中文标题、摘要、日期、标签、完整正文和参考文献。代码、文献作者及原题保留原文。
-3. 新文章放在 `gitbook/writing/`，同时维护 `SUMMARY.md`、写作索引、首页、归档和相关标签页。现有文件名与页面路径保持稳定。
+3. 写作文章放在 `gitbook/writing/`，研究条目放在 `gitbook/research/`。在 `gitbook/SUMMARY.md` 对应板块下面缩进添加链接，并更新写作索引或 `gitbook/research.md` 研究总览；按内容需要维护首页、归档和相关标签页。现有文件名与页面路径保持稳定。
 4. 检查正文、公式、代码、脚注和链接，再按当次发布要求处理修改稿。只需预览时，明确说明“本轮不发布”。
 
 本地 `.drafts-private/` 被 Git 忽略，且位于 GitBook 内容目录之外；私人草稿不要放入 `gitbook/`。
