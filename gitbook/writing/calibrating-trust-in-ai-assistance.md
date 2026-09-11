@@ -6,7 +6,7 @@
 
 标签：人机交互 · 信任 · 负责任的人工智能
 
-[全部文章](README.md)
+[全部文章](./)
 
 > **示例文章。** 本文是为示例站点撰写的概念性设计札记，不代表已经部署的系统、完成的用户研究或作者本人的研究成果。
 
@@ -63,7 +63,7 @@ export function assistanceMode(context: DecisionContext) {
 
 Amershi, S., Weld, D., Vorvoreanu, M., Fourney, A., Nushi, B., Collisson, P., Suh, J., Iqbal, S., Bennett, P. N., Inkpen, K., Teevan, J., Kikin-Gil, R., & Horvitz, E. (2019). Guidelines for Human-AI Interaction. Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, 1–13. [https://doi.org/10.1145/3290605.3300233](https://doi.org/10.1145/3290605.3300233)
 
-Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors: The Journal of the Human Factors and Ergonomics Society, 46(1), 50–80. [https://doi.org/10.1518/hfes.46.1.50_30392](https://doi.org/10.1518/hfes.46.1.50_30392)
+Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors: The Journal of the Human Factors and Ergonomics Society, 46(1), 50–80. [https://doi.org/10.1518/hfes.46.1.50\_30392](https://doi.org/10.1518/hfes.46.1.50_30392)
 
 Licklider, J. C. R. (1960). Man-Computer Symbiosis. IRE Transactions on Human Factors in Electronics, HFE-1(1), 4–11. [https://doi.org/10.1109/THFE2.1960.4503259](https://doi.org/10.1109/THFE2.1960.4503259)
 
