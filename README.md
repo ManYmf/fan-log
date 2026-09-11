@@ -2,7 +2,7 @@
 
 [访问博客](https://fan.gitbook.io/fan-log/) · [内容许可](gitbook/license.md)
 
-这里保存 GitBook 中文博客的页面、目录和图片。站点包含研究札记与个人随笔，当前三篇文章和研究档案均保留示例标记。
+这里保存 GitBook 中文博客的页面、目录和图片。站点包含研究札记、个人随笔与学习历程，现有三篇写作文章和研究档案保留示例标记。
 
 ## 仓库结构
 
@@ -19,6 +19,8 @@ gitbook/
   writing/                    写作索引和三篇中文文章
   research.md                 研究总览
   research/                   独立研究条目
+  learning.md                 学习总览
+  learning/                   CS336、CS231 学习历程
   archive.md                  归档
   tags.md                     标签
   about.md                    关于
@@ -33,9 +35,11 @@ templates/
 
 **Git Sync 已启用，连接 GitHub 的 `ManYmf/fan-log` 仓库与 `main` 分支。** 推送到 `main` 后，GitBook 会自动同步；在 GitBook 网页中合并修改稿后，内容也会自动提交回 GitHub。电脑上的本地文件仍需运行 `git pull --ff-only` 才能取回这些更新。
 
+日常写作可以只维护单篇 Markdown。CS336 与 CS231 分别写在 `gitbook/learning/cs336.md` 和 `gitbook/learning/cs231.md`；也可以把独立笔记交给 Codex，说明所属课程。文内链接、图片路径、目录层级和相关总览由 Codex 整理，准备发布时再提交并推送。
+
 1. 本地写作前先拉取最新提交，再复制[中文文章草稿模板](templates/中文文章草稿模板.md)到 `.drafts-private/`；也可以直接在 GitBook 中创建修改草稿。
 2. 每篇文章保留中文标题、摘要、日期、标签、完整正文和参考文献。代码、文献作者及原题保留原文。
-3. 写作文章放在 `gitbook/writing/`，研究条目放在 `gitbook/research/`。在 `gitbook/SUMMARY.md` 对应板块下面缩进添加链接，并更新写作索引或 `gitbook/research.md` 研究总览；按内容需要维护首页、归档和相关标签页。现有文件名与页面路径保持稳定。
+3. 写作文章放在 `gitbook/writing/`，研究条目放在 `gitbook/research/`，学习记录放在 `gitbook/learning/`。在 `gitbook/SUMMARY.md` 对应板块下面缩进添加链接，并更新对应的写作索引、研究总览或学习总览；按内容需要维护首页、归档和相关标签页。现有文件名与页面路径保持稳定。
 4. 检查正文、公式、代码、脚注和链接，再按当次发布要求处理修改稿。只需预览时，明确说明“本轮不发布”。
 
 本地 `.drafts-private/` 被 Git 忽略，且位于 GitBook 内容目录之外；私人草稿不要放入 `gitbook/`。
