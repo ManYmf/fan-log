@@ -1,4 +1,4 @@
-# Table of contents
+# 目录
 
 * [凡的笔记](README.md)
 * [写作](writing/README.md)
