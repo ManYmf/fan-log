@@ -2,6 +2,7 @@
 
 * [凡的笔记](README.md)
 * [写作](writing/README.md)
+  * [保研历程](writing/baoyan-journey.md)
   * [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners.md)
   * [校准对人工智能助手的信任](writing/calibrating-trust-in-ai-assistance.md)
   * [注意力的静默工作](writing/the-quiet-work-of-attention.md)
