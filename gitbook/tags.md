@@ -1,5 +1,13 @@
 # 标签
 
+## 保研
+
+* [保研历程](writing/baoyan-journey.md)
+
+## 学习历程
+
+* [保研历程](writing/baoyan-journey.md)
+
 ## 人机交互
 
 * [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners.md)
