@@ -2,6 +2,7 @@
 
 ## 待补充
 
+* [理工男自救指南](writing/engineer-self-rescue-guide.md) · 随笔 · 提纲已建立，正文待补充
 * [拔尖计划之反思](writing/bajian-plan-reflection.md) · 学习反思 · 正文待补充
 
 ## 2026

@@ -29,6 +29,7 @@ gitbook/
   .gitbook/assets/             首页封面和站点图标
 templates/
   中文文章草稿模板.md           新文章模板，不参与发布
+  理工男自救指南写作模板.md     专题提纲与写作提示，不参与发布
 ```
 
 ## 内容维护
@@ -43,6 +44,8 @@ templates/
 4. 检查正文、公式、代码、脚注和链接，再按当次发布要求处理修改稿。只需预览时，明确说明“本轮不发布”。
 
 本地 `.drafts-private/` 被 Git 忽略，且位于 GitBook 内容目录之外；私人草稿不要放入 `gitbook/`。
+
+《理工男自救指南》使用[专题写作模板](templates/理工男自救指南写作模板.md)，围绕交往实践与恋爱动机反思展开。复制到 `.drafts-private/` 后补充个人经历；博客中的[文章页面](gitbook/writing/engineer-self-rescue-guide.md)目前仅保留待补充提纲。
 
 ### 手动在 GitBook 网页更新
 

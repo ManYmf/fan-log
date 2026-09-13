@@ -2,6 +2,7 @@
 
 * [凡的笔记](README.md)
 * [写作](writing/README.md)
+  * [理工男自救指南](writing/engineer-self-rescue-guide.md)
   * [拔尖计划之反思](writing/bajian-plan-reflection.md)
   * [保研历程](writing/baoyan-journey.md)
   * [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners.md)
