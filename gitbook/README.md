@@ -16,7 +16,7 @@
 
 写这个博客，除了记录想法，更希望<mark style="color:purple;">认识同频的朋友</mark>。如果这里有你感兴趣的话题，欢迎加我的微信：**yu15611688879**。
 
-[进入笔记](writing/) · [学习反思](writing/learning-reflections.md) · [生活随感](writing/life-notes.md) · [研究索引](research.md)
+[进入笔记](writing/) · [研究索引](research.md)
 
 ## 凡 · 档案
 
@@ -25,7 +25,7 @@
 | <mark style="color:blue;">研究</mark> | 3D 重建与后训练 |
 | <mark style="color:green;">音乐</mark> | 长号与吉他 |
 | 运动 | 足球 |
-| 写作 | 学习反思与生活随感 |
+| 写作 | 研究札记与个人随笔 |
 
 ## 精选研究札记
 
