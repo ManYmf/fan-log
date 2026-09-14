@@ -1,0 +1,849 @@
+{
+  "article": "writing/bajian-plan-reflection/README.md",
+  "updated": "2026-09-14",
+  "images": [
+    {
+      "file": "nju-campus-web.jpg",
+      "type": "web_photo",
+      "title": "Duxia Library in NJU Xianlin Campus",
+      "author": "李凡其（Li3939108）",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Li3939108",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Duxia_Library_in_NJU_Xianlin_Campus.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Duxia_Library_in_NJU_Xianlin_Campus.jpg",
+      "downloaded_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Duxia_Library_in_NJU_Xianlin_Campus.jpg/1280px-Duxia_Library_in_NJU_Xianlin_Campus.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "date_taken": "2012-08-30",
+      "width": 1280,
+      "height": 720,
+      "modifications": "使用 Wikimedia Commons 现成缩略版本；本地未裁切、未调色。",
+      "placement": "拔尖班背景之后"
+    },
+    {
+      "file": "study-and-choices-ai.png",
+      "type": "ai_illustration",
+      "tool": "Built-in OpenAI image_gen",
+      "width": 1672,
+      "height": 941,
+      "description": "课程学习与科研选择的原创 AI 情境插画；非作者实拍、肖像或真实校园还原。正文图注已注明。",
+      "placement": "大三课程表和三年体验归纳之后",
+      "prompt": "Use case: illustration-story.\nAsset type: wide landscape editorial illustration, approximately 16:9, for a personal Chinese undergraduate essay about interdisciplinary study, demanding foundational courses, and choosing a research direction.\nPrimary request: Show the thoughtful uncertainty of a university student weighing broad course study against time for an emerging research interest.\nScene/backdrop: a quiet generic university library study area in daylight, an open window looking toward leafy campus paths.\nSubject: one anonymous undergraduate seen from behind at a wooden study table, with a modest stack of course books, loose handwritten study notes, an open laptop and a small research notebook; the student is pausing thoughtfully over the notebook. These ordinary study objects carry the story.\nStyle/medium: understated editorial gouache and colored pencil on textured ivory paper, matching the calm reflective style of a personal university blog.\nComposition/framing: wide landscape, clear focal point and generous breathing room, balanced natural perspective, not a collage.\nLighting/mood: soft afternoon daylight, reflective and quietly persistent; realistic academic pressure without melodrama.\nColor palette: muted slate blue, soft green and warm paper tones.\nConstraints: no readable text, no actual person likeness, no logos, no recognizable real university building, no grades or certificates, no diagram arrows, no watermark. This is a conceptual illustration, not a documentary reconstruction."
+    },
+    {
+      "file": "semester-1.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第一学期.png",
+      "description": "第一学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    },
+    {
+      "file": "semester-2.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第二学期.png",
+      "description": "第二学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    },
+    {
+      "file": "semester-3.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第三学期.png",
+      "description": "第三学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    },
+    {
+      "file": "semester-4.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第四学期.png",
+      "description": "第四学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    },
+    {
+      "file": "semester-5.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第五学期.png",
+      "description": "第五学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    },
+    {
+      "file": "semester-6.png",
+      "type": "user_provided_curriculum_screenshot",
+      "original_filename": "第六学期.png",
+      "description": "第六学期培养方案截图，作为正文表格的转录依据。",
+      "modifications": "复制原图，未修改。"
+    }
+  ],
+  "curriculum_tables": {
+    "source": "用户提供的六张培养方案截图",
+    "row_counts": [
+      11,
+      16,
+      13,
+      14,
+      15,
+      15
+    ],
+    "total_rows": 84,
+    "notes": [
+      "已按原图逐行转录，保持课程顺序；只提取培养方案课程信息。",
+      "六张截图均未展示表头；“课程代码／课程名称／学分／类别”是依据各列内容补写的阅读标签。",
+      "仅第一学期截图包含课程代码，其余五个学期不补造课程代码。",
+      "第三学期第 8 行、第四学期第 9 行、第五学期第 5、7 行的课程名称在原图中被截断。本稿保留可见部分并用省略号标记，不补全未显示的文字。",
+      "为便于阅读，统一为中文全角括号，并将罗马序号 I、II、III 与课程名称之间留一个空格；不改变课程含义。",
+      "图中没有说明课程之间是否存在替代、分流或选修要求；不据此计算必修学分、学期总负担，也不将其表述为作者实际已修清单。",
+      "其余课程名、学分、类别均已目视核对，未发现无法辨认的字段。"
+    ],
+    "semesters": [
+      {
+        "semester": 1,
+        "academic_year": 1,
+        "source_image": "semester-1.png",
+        "visible_columns": [
+          "课程代码",
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": "11100140A",
+            "course_name": "微积分 I（第一层次）",
+            "credits": "5.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": "11000010A",
+            "course_name": "数学分析",
+            "credits": "5.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": "11000020A",
+            "course_name": "高等代数",
+            "credits": "4.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": "11100140C",
+            "course_name": "线性代数（第一层次）",
+            "credits": "4.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": "00020010A",
+            "course_name": "大学英语（一）",
+            "credits": "4.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 6,
+            "course_code": "00000100",
+            "course_name": "思想道德与法治",
+            "credits": "3.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": "14140032",
+            "course_name": "大学生物学",
+            "credits": "3.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 8,
+            "course_code": "22000010",
+            "course_name": "程序设计基础",
+            "credits": "3.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 9,
+            "course_code": "13010260",
+            "course_name": "化学实验基础",
+            "credits": "2.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 10,
+            "course_code": "00040010A",
+            "course_name": "体育（一）",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": "00000080A",
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          }
+        ]
+      },
+      {
+        "semester": 2,
+        "academic_year": 1,
+        "source_image": "semester-2.png",
+        "visible_columns": [
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": null,
+            "course_name": "大学物理实验（一）",
+            "credits": "2.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": null,
+            "course_name": "大学物理（上）",
+            "credits": "4.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": null,
+            "course_name": "人工智能程序设计",
+            "credits": "4.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": null,
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": null,
+            "course_name": "马克思主义基本原理",
+            "credits": "3.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 6,
+            "course_code": null,
+            "course_name": "微积分 II（第一层次）",
+            "credits": "5.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": null,
+            "course_name": "数学分析",
+            "credits": "5.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 8,
+            "course_code": null,
+            "course_name": "高等代数",
+            "credits": "4.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 9,
+            "course_code": null,
+            "course_name": "军事理论",
+            "credits": "2.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 10,
+            "course_code": null,
+            "course_name": "程序设计基础",
+            "credits": "3.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": null,
+            "course_name": "大学英语（二）",
+            "credits": "4.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 12,
+            "course_code": null,
+            "course_name": "体育（二）",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 13,
+            "course_code": null,
+            "course_name": "数字逻辑与计算机组成",
+            "credits": "4.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 14,
+            "course_code": null,
+            "course_name": "程序设计基础实验",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 15,
+            "course_code": null,
+            "course_name": "名师导学",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 16,
+            "course_code": null,
+            "course_name": "化学合成与表征 II",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          }
+        ]
+      },
+      {
+        "semester": 3,
+        "academic_year": 2,
+        "source_image": "semester-3.png",
+        "visible_columns": [
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": null,
+            "course_name": "计算机系统基础",
+            "credits": "5.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": null,
+            "course_name": "人工智能导论",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": null,
+            "course_name": "学术与科创能力培养",
+            "credits": "1.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": null,
+            "course_name": "理论力学",
+            "credits": "4.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": null,
+            "course_name": "大学物理（下）",
+            "credits": "4.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 6,
+            "course_code": null,
+            "course_name": "中国近现代史纲要",
+            "credits": "3.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": null,
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 8,
+            "course_code": null,
+            "course_name": "习近平新时代中国特色…",
+            "credits": "2.0",
+            "category": "通修",
+            "truncated": true
+          },
+          {
+            "row": 9,
+            "course_code": null,
+            "course_name": "体育（三）",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 10,
+            "course_code": null,
+            "course_name": "大学物理实验（二）",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": null,
+            "course_name": "化学合成与表征 III",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 12,
+            "course_code": null,
+            "course_name": "高级英语词汇",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 13,
+            "course_code": null,
+            "course_name": "实用英语写作",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          }
+        ]
+      },
+      {
+        "semester": 4,
+        "academic_year": 2,
+        "source_image": "semester-4.png",
+        "visible_columns": [
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": null,
+            "course_name": "操作系统",
+            "credits": "4.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": null,
+            "course_name": "生理学",
+            "credits": "3.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": null,
+            "course_name": "计算方法",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": null,
+            "course_name": "学术与科创能力培养",
+            "credits": "1.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": null,
+            "course_name": "近代应用数学",
+            "credits": "3.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 6,
+            "course_code": null,
+            "course_name": "概率论与数理统计",
+            "credits": "3.0",
+            "category": "平台",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": null,
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 8,
+            "course_code": null,
+            "course_name": "体育（四）",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 9,
+            "course_code": null,
+            "course_name": "毛泽东思想和中国特色…",
+            "credits": "2.0",
+            "category": "通修",
+            "truncated": true
+          },
+          {
+            "row": 10,
+            "course_code": null,
+            "course_name": "脑科学相关医学影像学",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": null,
+            "course_name": "实验心理学（上）",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 12,
+            "course_code": null,
+            "course_name": "数理逻辑",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 13,
+            "course_code": null,
+            "course_name": "博弈论及其应用",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 14,
+            "course_code": null,
+            "course_name": "生物化学实验",
+            "credits": "1.0",
+            "category": "选修",
+            "truncated": false
+          }
+        ]
+      },
+      {
+        "semester": 5,
+        "academic_year": 3,
+        "source_image": "semester-5.png",
+        "visible_columns": [
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": null,
+            "course_name": "生物化学与分子生物学",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": null,
+            "course_name": "学术与科创能力培养",
+            "credits": "1.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": null,
+            "course_name": "神经网络",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": null,
+            "course_name": "理论力学",
+            "credits": "4.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": null,
+            "course_name": "毛泽东思想和中国特色…",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": true
+          },
+          {
+            "row": 6,
+            "course_code": null,
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": null,
+            "course_name": "习近平新时代中国特色…",
+            "credits": "1.0",
+            "category": "通修",
+            "truncated": true
+          },
+          {
+            "row": 8,
+            "course_code": null,
+            "course_name": "复杂体系分子模拟导论",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 9,
+            "course_code": null,
+            "course_name": "计算材料学",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 10,
+            "course_code": null,
+            "course_name": "学术论文写作",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": null,
+            "course_name": "模态逻辑与模态认识论",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 12,
+            "course_code": null,
+            "course_name": "实验心理学（下）",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 13,
+            "course_code": null,
+            "course_name": "认知心理学",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 14,
+            "course_code": null,
+            "course_name": "运筹学",
+            "credits": "4.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 15,
+            "course_code": null,
+            "course_name": "数字图像处理",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          }
+        ]
+      },
+      {
+        "semester": 6,
+        "academic_year": 3,
+        "source_image": "semester-6.png",
+        "visible_columns": [
+          "课程名称",
+          "学分",
+          "类别"
+        ],
+        "headers_inferred": true,
+        "courses": [
+          {
+            "row": 1,
+            "course_code": null,
+            "course_name": "神经生物学",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 2,
+            "course_code": null,
+            "course_name": "生物信息与计算生物学",
+            "credits": "3.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 3,
+            "course_code": null,
+            "course_name": "数据挖掘导论",
+            "credits": "2.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 4,
+            "course_code": null,
+            "course_name": "学术与科创能力培养",
+            "credits": "1.0",
+            "category": "核心",
+            "truncated": false
+          },
+          {
+            "row": 5,
+            "course_code": null,
+            "course_name": "形势与政策",
+            "credits": "0.25",
+            "category": "通修",
+            "truncated": false
+          },
+          {
+            "row": 6,
+            "course_code": null,
+            "course_name": "生理学实验",
+            "credits": "1.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 7,
+            "course_code": null,
+            "course_name": "生物色谱质谱",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 8,
+            "course_code": null,
+            "course_name": "系统生物学导论",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 9,
+            "course_code": null,
+            "course_name": "大数据分析",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 10,
+            "course_code": null,
+            "course_name": "机器学习导论",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 11,
+            "course_code": null,
+            "course_name": "数学建模",
+            "credits": "2.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 12,
+            "course_code": null,
+            "course_name": "组合数学",
+            "credits": "3.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 13,
+            "course_code": null,
+            "course_name": "多元统计分析",
+            "credits": "4.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 14,
+            "course_code": null,
+            "course_name": "分子生物学实验",
+            "credits": "1.0",
+            "category": "选修",
+            "truncated": false
+          },
+          {
+            "row": 15,
+            "course_code": null,
+            "course_name": "实变函数与泛函分析",
+            "credits": "4.0",
+            "category": "选修",
+            "truncated": false
+          }
+        ]
+      }
+    ]
+  }
+}

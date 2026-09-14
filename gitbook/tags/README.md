@@ -14,11 +14,11 @@
 
 ## 拔尖计划
 
-* [拔尖计划之反思](../writing/bajian-plan-reflection/README.md) · 待补充
+* [拔尖计划之反思](../writing/bajian-plan-reflection/README.md)
 
 ## 学习反思
 
-* [拔尖计划之反思](../writing/bajian-plan-reflection/README.md) · 待补充
+* [拔尖计划之反思](../writing/bajian-plan-reflection/README.md)
 
 ## 保研
 

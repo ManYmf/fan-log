@@ -10,7 +10,9 @@
 
 ## [拔尖计划之反思](bajian-plan-reflection/README.md)
 
-学习反思 · 待补充
+2026-09-14 · 学习反思 · 已完成
+
+从六学期培养方案出发，回看方向选择、课程负担、科研机会与保研竞争之间的取舍。
 
 ## [保研历程](baoyan-journey/README.md)
 
