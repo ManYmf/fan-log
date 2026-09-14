@@ -10,6 +10,10 @@
 
 > **示例文章。** 本文仅用于展示博客的研究写作形式，提出一种设计立场；不代表作者已经发表相关成果，也不暗示任何机构归属或已完成的实证研究。
 
+![窗边的研究者在屏幕与纸质资料之间对照证据，重新排列问题与可能的解释。](../.gitbook/assets/examples-interfaces-ai.png)
+
+*让问题保持开放，也让判断可以修正。（AI 情境插画）*
+
 ## 不只是答案的容器
 
 界面常被理解为一层中性的表面：人提出问题，系统给出回答，屏幕只负责传递结果。然而，界面同时决定什么容易被询问、什么会持续可见，以及不确定性何时出现。它不仅塑造行动，也参与塑造人对事情的判断。
@@ -37,6 +41,10 @@ $$
 \text{不确定性} \times
 \text{决策影响}
 $$
+
+![计算机历史博物馆陈列的 NLS 三键鼠标和五键和弦键盘。](../.gitbook/assets/examples-interfaces-web-nls.jpg)
+
+*NLS 的三键鼠标与和弦键盘：界面也可以是桌面上一组参与思考的工具。摄影：Michael Hicks，经 [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ON-Line_System_%28NLS%29,_SRI_%281960-1970s%29_-_three-button_mouse_and_chord_keyboard_-_Computer_History_Museum.jpg)，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)。使用等比例缩略图，未改动画面内容。*
 
 ## 设计一个可修正的循环
 

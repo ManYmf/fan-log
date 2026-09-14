@@ -26,7 +26,7 @@ gitbook/
   about.md                    关于
   references.md               参考文献
   license.md                  文章内容许可
-  .gitbook/assets/             首页封面和站点图标
+  .gitbook/assets/             首页封面、站点图标、文章配图与来源记录
 templates/
   中文文章草稿模板.md           新文章模板，不参与发布
   理工男自救指南写作模板.md     专题提纲与写作提示，不参与发布
@@ -81,6 +81,8 @@ git push origin main
 若拉取提示本地有未提交的修改或分支无法快进，先保留本地改动并处理冲突，再继续推送；不要使用强制推送。为减少冲突，尽量避免在网页和电脑上同时修改同一页。
 
 ## 图片与格式
+
+三篇示例文章各配一张 AI 情境插画与一张相关的网络图片。AI 插画在图注中标明；网络图片保留作者、来源链接、许可及修改说明。六张配图的完整来源和生成提示词保存在 `gitbook/.gitbook/assets/example-image-sources.json`，第三方图片遵循各自许可。
 
 首页封面为 `gitbook/.gitbook/assets/fan-notes-cover.jpg`，在首页正文第一块显示，位于标题下方、简介之前。站点头像为同目录下的 `fan-avatar-rounded.svg`，内嵌原图 `fan-avatar.jpg`，沿用旧图标的圆角和青色细边框；通过 GitBook 站点外观设置引用仓库中的 SVG，同时用于左上角图标和浏览器标签页图标，浅色和深色模式使用同一张头像；`favicon-zh.svg` 保留为旧版图标。当前连接器无法设置原生封面位置；以后手工设置原生封面时，移除正文中的同一张图，避免重复。
 

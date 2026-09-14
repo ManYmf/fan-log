@@ -10,6 +10,10 @@
 
 > **示例文章。** 本文是为示例站点撰写的概念性设计札记，不代表已经部署的系统、完成的用户研究或作者本人的研究成果。
 
+![桌面上，使用者将电脑中的建议与两份纸质资料对照，用铅笔逐项核查依据。](../.gitbook/assets/examples-trust-ai.png)
+
+*在依赖一个建议之前，先看看它的依据。（AI 情境插画）*
+
 ## 信任不是一个开关
 
 当人们询问人工智能系统是否值得信任时，问题听起来像是非黑即白。实际使用中，信任却随任务变化：系统整理列表时可能相当可靠，概括陌生论文时也许有帮助但会出错，而面对高影响决策时，它不应成为唯一依据。
@@ -50,6 +54,10 @@ export function assistanceMode(context: DecisionContext) {
 ```
 
 这段代码并非普适的信任公式，它只是表达一个产品原则：风险或不确定性任一上升时，界面都应提高核验支持的强度。同时，用户必须能够检查并推翻系统对情境的判断。
+
+![游标卡尺主尺与游标刻度的近景照片。](../.gitbook/assets/examples-trust-web-caliper.jpg)
+
+*借用测量作比喻：恰当的信任需要可检查的依据，也需要认识精度的边界。摄影：Ulfbastel，[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Messschieber2.jpg)，[公有领域](https://commons.wikimedia.org/wiki/File:Messschieber2.jpg#Licensing)。原图未修改。*
 
 ## 信任也在修复中形成
 
