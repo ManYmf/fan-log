@@ -1,6 +1,6 @@
 # 凡的笔记
 
-[访问博客](https://fan.gitbook.io/fan-log/) · [内容许可](gitbook/license.md)
+[访问博客](https://fan.gitbook.io/fan-log/) · [内容许可](gitbook/license/README.md)
 
 这里保存 GitBook 中文博客的页面、目录和图片。站点包含研究札记、个人随笔与学习历程，现有三篇写作文章和研究档案保留示例标记。
 
@@ -16,22 +16,28 @@ LICENSE                       代码的 MIT 许可
 gitbook/
   README.md                   首页
   SUMMARY.md                  页面目录
-  writing/                    写作索引和中文文章
-  research.md                 研究总览
-  research/                   独立研究条目
-  learning.md                 学习总览
-  learning/                   CS336、CS231 学习历程
-  archive.md                  归档
-  tags.md                     标签
-  about.md                    关于
-  references.md               参考文献
-  license.md                  文章内容许可
-  .gitbook/assets/             图片资源根目录
+  writing/
+    README.md                 写作索引
+    baoyan-journey/
+      README.md               《保研历程》正文
+      images/                 本文配图与 sources.json
+    <文章 slug>/
+      README.md               其他文章正文
+      images/                 有配图时创建，存放本文图片与 sources.json
+  research/
+    README.md                 研究总览
+    <条目 slug>/README.md     独立研究条目
+  learning/
+    README.md                 学习总览
+    cs336/README.md            CS336 学习历程
+    cs231/README.md            CS231 学习历程
+  archive/README.md           归档
+  tags/README.md              标签
+  about/README.md             关于
+  references/README.md        参考文献
+  license/README.md           文章内容许可
+  .gitbook/assets/             全站共用图片
     site/                     首页封面、头像原图与旧版图标
-    baoyan-journey/            《保研历程》配图与 sources.json
-    interfaces-as-epistemic-partners/   《作为认识伙伴的界面》配图与 sources.json
-    calibrating-trust-in-ai-assistance/ 《校准对人工智能助手的信任》配图与 sources.json
-    the-quiet-work-of-attention/       《注意力的静默工作》配图与 sources.json
     fan-avatar-rounded.svg    线上头像的固定入口
 templates/
   中文文章草稿模板.md           新文章模板，不参与发布
@@ -42,28 +48,31 @@ templates/
 
 **Git Sync 已启用，连接 GitHub 的 `ManYmf/fan-log` 仓库与 `main` 分支。** 推送到 `main` 后，GitBook 会自动同步；在 GitBook 网页中合并修改稿后，内容也会自动提交回 GitHub。电脑上的本地文件仍需运行 `git pull --ff-only` 才能取回这些更新。
 
-日常写作可以只维护单篇 Markdown。CS336 与 CS231 分别写在 `gitbook/learning/cs336.md` 和 `gitbook/learning/cs231.md`；也可以把独立笔记交给 Codex，说明所属课程。文内链接、图片路径、目录层级和相关总览由 Codex 整理，准备发布时再提交并推送。
+每个页面使用独立目录，正文统一命名为 `README.md`，配图放在同目录的 `images/` 中。CS336 与 CS231 分别写在 `gitbook/learning/cs336/README.md` 和 `gitbook/learning/cs231/README.md`；也可以把独立笔记交给 Codex，说明所属课程。文内链接、图片路径、目录层级和相关总览由 Codex 整理，准备发布时再提交并推送。
 
-1. 本地写作前先拉取最新提交，再复制[中文文章草稿模板](templates/中文文章草稿模板.md)到 `.drafts-private/`；也可以直接在 GitBook 中创建修改草稿。
+1. 本地写作前先拉取最新提交，再复制[中文文章草稿模板](templates/中文文章草稿模板.md)到 `.drafts-private/<文章 slug>/README.md`，私人图片放在同目录的 `images/` 中。
 2. 每篇文章保留中文标题、摘要、日期、标签、完整正文和参考文献。代码、文献作者及原题保留原文。
-3. 写作文章放在 `gitbook/writing/`，研究条目放在 `gitbook/research/`，学习记录放在 `gitbook/learning/`。在 `gitbook/SUMMARY.md` 对应板块下面缩进添加链接，并更新对应的写作索引、研究总览或学习总览；按内容需要维护首页、归档和相关标签页。现有文件名与页面路径保持稳定。
+3. 准备公开的文章目录放在 `gitbook/writing/<文章 slug>/`、`gitbook/research/<条目 slug>/` 或 `gitbook/learning/<笔记 slug>/`。在 `gitbook/SUMMARY.md` 对应板块下面缩进添加指向新 `README.md` 的链接，并更新对应的写作索引、研究总览或学习总览；按内容需要维护首页、归档和相关标签页。目录中的 slug 使用稳定名称，例如 `baoyan-journey`。
 4. 检查正文、公式、代码、脚注和链接，再按当次发布要求处理修改稿。只需预览时，明确说明“本轮不发布”。
 
 本地 `.drafts-private/` 被 Git 忽略，且位于 GitBook 内容目录之外；私人草稿不要放入 `gitbook/`。
 
-《理工男自救指南》使用[专题写作模板](templates/理工男自救指南写作模板.md)，围绕交往实践与恋爱动机反思展开。复制到 `.drafts-private/` 后补充个人经历；博客中的[文章页面](gitbook/writing/engineer-self-rescue-guide.md)目前仅保留待补充提纲。
+创建私人草稿的示例：
 
-### 手动在 GitBook 网页更新
+```powershell
+New-Item -ItemType Directory -Path .drafts-private/my-article/images -Force
+Copy-Item -LiteralPath templates/中文文章草稿模板.md -Destination .drafts-private/my-article/README.md
+```
 
-1. 打开[站点编辑后台](https://app.gitbook.com/o/egSGUcjUIbDQZzPmhboO/sites/site_mYynC)，进入“凡的笔记”的内容区，选择需要修改的页面，例如“关于”。
-2. 点击 **Edit（编辑）**，创建修改草稿；直接修改页面中的相应段落。
-3. 如果已在本地修改 `gitbook/about.md`，将改过的段落复制到网页编辑器的对应位置。Windows 粘贴 Markdown 使用 **Ctrl + Shift + V**，然后检查格式。页面标题单独编辑；不要把首行 `# 关于` 再粘贴到正文中。底部导航无需改动时直接保留；需要新增站内链接时，在编辑器里选择对应页面。
-4. 编辑内容会自动保存到草稿。点击 **Preview（预览）** 检查，再点击 **Merge（合并）** 更新已发布站点；若编辑页未显示合并按钮，可进入 **Overview（概览）** 查找。
-5. 打开公开页面检查结果，必要时刷新浏览器。Git Sync 会将合并后的内容写回 GitHub；下次在电脑上继续编辑前，先运行 `git pull --ff-only`。
+《理工男自救指南》使用[专题写作模板](templates/理工男自救指南写作模板.md)，围绕交往实践与恋爱动机反思展开。复制到 `.drafts-private/engineer-self-rescue-guide/README.md` 后补充个人经历；博客中的[文章页面](gitbook/writing/engineer-self-rescue-guide/README.md)目前仅保留待补充提纲。
 
-首页和写作索引使用 `README.md` 文件，按 GitBook 官方建议在仓库中维护；普通文章和“关于”可以在网页编辑。手动网页编辑不需要重新创建站点。
+### GitBook 网页预览与同步检查
 
-参考：[GitBook 修改草稿与合并](https://gitbook.com/docs/collaborate/change-requests/change-requests-in-a-space)、[Markdown 粘贴](https://gitbook.com/docs/create-content/formatting/markdown)。
+本仓库的正文页面都使用 `README.md`，主要通过本地 Git 维护。GitBook 官方提醒：启用 Git Sync 时，在网页中编辑 `README.md` 可能造成冲突或重复页面。因此修改正文、目录和图片后，应从仓库提交并推送，再到[站点编辑后台](https://app.gitbook.com/o/egSGUcjUIbDQZzPmhboO/sites/site_mYynC)查看 **Git Sync** 状态及页面预览。[GitBook 内容配置说明](https://gitbook.com/docs/docs-as-code/git-sync/content-configuration)
+
+若已有网页修改草稿需要合并，先核对其与本地修改是否重叠；合并后通过 `git pull --ff-only` 取回同步结果，并检查文件布局。无需重新创建站点或重新连接 Git Sync。
+
+移动或重命名页面时，同步更新 `SUMMARY.md`、相关总览和所有站内相对链接。仓库路径改变后，公开页面 URL 需按原有 slug 在 GitBook 中核对；不要仅根据文件路径推断 URL 不变。发布后检查原地址和导航，若确认地址发生变化，再配置相应重定向。
 
 ### 在电脑上修改并自动发布
 
@@ -73,22 +82,24 @@ templates/
 git pull --ff-only
 ```
 
-编辑并保存需要更新的文件。例如修改 `gitbook/about.md` 后：
+编辑并保存需要更新的文件。例如修改 `gitbook/about/README.md` 后：
 
 ```powershell
-git diff -- gitbook/about.md
-git add -- gitbook/about.md
+git diff -- gitbook/about/README.md
+git add -- gitbook/about/README.md
 git commit -m "更新关于页"
 git push origin main
 ```
 
-发布文章或图片时，将上面的文件路径替换为本次实际修改的文件；新增页面还要提交 `gitbook/SUMMARY.md` 等相关索引。仅保存文件或本地提交不会更新网站，推送到 `main` 后才会触发同步。在 GitBook 的 **Git Sync** 中确认成功，再打开博客检查。
+发布文章或图片时，将上面的文件路径替换为本次实际修改的文章目录，例如 `gitbook/writing/baoyan-journey/`，一起提交正文、图片和来源记录；新增或移动页面还要提交 `gitbook/SUMMARY.md` 等相关索引及链接修改。仅保存文件或本地提交不会更新网站，推送到 `main` 后才会触发同步。在 GitBook 的 **Git Sync** 中确认成功，再打开博客检查。
 
 若拉取提示本地有未提交的修改或分支无法快进，先保留本地改动并处理冲突，再继续推送；不要使用强制推送。为减少冲突，尽量避免在网页和电脑上同时修改同一页。
 
 ## 图片与格式
 
-文章图片按文章文件名归档到 `gitbook/.gitbook/assets/<文章文件名（不含 .md）>/`。例如，《保研历程》的配图放在 `gitbook/.gitbook/assets/baoyan-journey/`，正文使用 `../.gitbook/assets/baoyan-journey/图片名.png` 引用。新文章沿用这个规则，同一篇文章的图片与 `sources.json` 放在一起；来源记录中的 `file` 相对所在图片目录。
+文章图片放在正文所属目录的 `images/` 中。例如，《保研历程》正文为 `gitbook/writing/baoyan-journey/README.md`，配图放在 `gitbook/writing/baoyan-journey/images/`，正文使用 `![图片说明](images/图片名.png)` 引用。研究和学习页面沿用相同规则；没有配图时无需创建空的 `images/` 目录。复制、备份或迁移文章时带走整个文章目录。
+
+每篇的图片与 `sources.json` 放在同一个 `images/` 目录；来源记录中的 `file` 相对该图片目录，`article` 相对 GitBook 内容根目录 `gitbook/`，例如 `writing/baoyan-journey/README.md`。迁移文章目录时一并更新来源记录与站内链接。
 
 三篇示例文章各配一张 AI 情境插画与一张相关的网络图片。AI 插画在图注中标明；网络图片保留作者、来源链接、许可及修改说明。各篇的完整来源和生成提示词保存在自身图片目录的 `sources.json` 中，第三方图片遵循各自许可。
 
@@ -108,4 +119,4 @@ git push origin main
 
 参考：[启用 GitHub 同步](https://gitbook.com/docs/docs-as-code/git-sync/enabling-github-sync)、[内容配置](https://gitbook.com/docs/docs-as-code/git-sync/content-configuration)。
 
-本仓库不需要安装依赖或执行前端构建。文章与编辑内容采用[知识共享署名 4.0 国际许可](gitbook/license.md)，代码采用 [MIT 许可](LICENSE)。
+本仓库不需要安装依赖或执行前端构建。文章与编辑内容采用[知识共享署名 4.0 国际许可](gitbook/license/README.md)，代码采用 [MIT 许可](LICENSE)。

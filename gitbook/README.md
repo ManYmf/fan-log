@@ -16,7 +16,7 @@
 
 写这个博客，除了记录想法，更希望<mark style="color:purple;">认识同频的朋友</mark>。如果这里有你感兴趣的话题，欢迎加我的微信：**yu15611688879**。
 
-[进入笔记](writing/) · [研究索引](research.md)
+[进入笔记](writing/README.md) · [研究索引](research/README.md)
 
 ## 凡 · 档案
 
@@ -29,16 +29,16 @@
 
 ## 精选研究札记
 
-### [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners.md)
+### [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners/README.md)
 
 界面不只传递答案，也塑造什么可以被追问、检查与修正。
 
 ## 近期条目
 
-* 待补充 · [理工男自救指南](writing/engineer-self-rescue-guide.md)
-* 2026-09-11 · [保研历程](writing/baoyan-journey.md)
-* 2026-09-03 · [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners.md)
-* 2026-08-24 · [校准对人工智能助手的信任](writing/calibrating-trust-in-ai-assistance.md)
-* 2026-08-12 · [注意力的静默工作](writing/the-quiet-work-of-attention.md)
+* 待补充 · [理工男自救指南](writing/engineer-self-rescue-guide/README.md)
+* 2026-09-11 · [保研历程](writing/baoyan-journey/README.md)
+* 2026-09-03 · [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners/README.md)
+* 2026-08-24 · [校准对人工智能助手的信任](writing/calibrating-trust-in-ai-assistance/README.md)
+* 2026-08-12 · [注意力的静默工作](writing/the-quiet-work-of-attention/README.md)
 
-[归档](archive.md) · [标签](tags.md) · [关于](about.md) · [内容许可](license.md)
+[归档](archive/README.md) · [标签](tags/README.md) · [关于](about/README.md) · [内容许可](license/README.md)
