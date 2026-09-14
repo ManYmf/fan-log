@@ -16,7 +16,7 @@ LICENSE                       代码的 MIT 许可
 gitbook/
   README.md                   首页
   SUMMARY.md                  页面目录
-  writing/                    写作索引和三篇中文文章
+  writing/                    写作索引和中文文章
   research.md                 研究总览
   research/                   独立研究条目
   learning.md                 学习总览
@@ -82,7 +82,9 @@ git push origin main
 
 ## 图片与格式
 
-首页封面为 `gitbook/.gitbook/assets/fan-notes-cover.jpg`，在首页正文第一块显示，位于标题下方、简介之前。站点图标为同目录下的 `favicon-zh.svg`。当前连接器无法设置原生封面位置；以后手工设置原生封面时，移除正文中的同一张图，避免重复。
+首页封面为 `gitbook/.gitbook/assets/fan-notes-cover.jpg`，在首页正文第一块显示，位于标题下方、简介之前。站点头像为同目录下的 `fan-avatar-rounded.svg`，内嵌原图 `fan-avatar.jpg`，沿用旧图标的圆角和青色细边框；通过 GitBook 站点外观设置引用仓库中的 SVG，同时用于左上角图标和浏览器标签页图标，浅色和深色模式使用同一张头像；`favicon-zh.svg` 保留为旧版图标。当前连接器无法设置原生封面位置；以后手工设置原生封面时，移除正文中的同一张图，避免重复。
+
+站点背景通过 GitBook 外观设置维护：使用 `gradient` 主题，浅色 Tint 为 `#2586C8`，深色 Tint 为 `#3677A8`，保留青色主色和默认深色模式。Tint 是 GitBook 生成配色的种子色，并非直接铺在页面上的底色；浅色背景从右上方的淡蓝色 `#E8F4FF` 向左下方的白色过渡，深色背景从蓝灰色 `#293137` 过渡到炭灰色 `#1D1D1D`。避免再使用接近白色的中性 Tint，以免渐变两端颜色过近、看起来像纯色。当前使用原生渐变，没有添加全站背景图片。
 
 页面之间使用相对 Markdown 链接。行内公式使用 `$$公式$$`，块公式使用单独多行的 `$$`，脚注使用 `[^标识]` 与对应定义。参考文献直接列出作者、年份、原题和可核查链接。
 
