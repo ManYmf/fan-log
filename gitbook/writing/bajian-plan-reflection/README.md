@@ -10,7 +10,7 @@
 
 ![南京大学仙林校区图书馆前的湖面与喷泉，远处是傍晚的夕阳。](images/nju-campus-web.jpg)
 
-*南京大学仙林校区图书馆前的夕照（2012 年）。摄影：李凡其（Li3939108），[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duxia_Library_in_NJU_Xianlin_Campus.jpg)，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。使用缩略版本，未作其他修改。*
+*南京大学仙林校区图书馆前的夕照（2012 年）。摄影：李凡其（Li3939108），[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duxia_Library_in_NJU_Xianlin_Campus.jpg)，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)。*
 
 ## 培养方案分析
 
@@ -29,8 +29,6 @@
 这样的偏差导致了最终的排名不能够完全准确地反映学生们对知识掌握的程度；这对于排名中部的同学无关紧要，但是对于比较靠后在保研线上竞争的同学来讲，<mark style="color:purple;">一点分差就可能影响机会</mark>，还是会有一些意见的。我暂时想不出一个更公平、又足够可行的办法。学院有它的现实困难，而站在保研线附近的学生，也确实需要承担这种不确定性。
 
 ## 就读体验分析
-
-*下列课程表按所附六学期培养方案截图整理，保留图中的学分和类别。截图未展示课程间的替代关系与修读要求，因此不直接加总学分；课程名中的省略号表示原图未显示完整名称。*
 
 ### 大一：补齐基础
 
@@ -212,7 +210,7 @@
 
 ![一名学生在图书馆窗边，面对课程书籍、电脑和研究笔记思考。](images/study-and-choices-ai.png)
 
-*在课程、科研与未来方向之间，慢慢作出自己的选择。（AI 情境插画，非作者实拍或真实校园还原。）*
+*在课程、科研与未来方向之间，慢慢作出自己的选择。*
 
 <mark style="color:green;">但我仍然很感激学院。</mark>对于拿到保研资格的同学，学院会尽力帮助大家找到不错的去处。在现有资源条件下，能够保持这样的升学支持，离不开各位教授、行政人员和辅导员的努力。
 
