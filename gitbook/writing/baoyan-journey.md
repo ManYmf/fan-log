@@ -14,7 +14,7 @@
 
 大一时，我的绩点很差，记得应该是3.9几，排名80%左右。每次和父母打电话，问得最多的就是“能及格么”。到了大二，我喜提大物下64和ICS73，但令人恐惧的是，即使这样，我的排名还是上涨到了70%左右（难以想象那个学期大家经历了什么）。于是大二下，排名60%的我决定争取保研。大二结束的那个暑假，我没有回家，留在学校琢磨着怎么进组。
 
-![夏日校园里，一名背着书包的学生沿树荫下的小路走向教学楼。](../.gitbook/assets/baoyan-summer-campus.png)
+![夏日校园里，一名背着书包的学生沿树荫下的小路走向教学楼。](../.gitbook/assets/baoyan-journey/baoyan-summer-campus.png)
 
 *那个暑假，留在学校，寻找下一步的方向。（AI 情境插画）*
 
@@ -47,7 +47,7 @@
 
 具体的过程写在这篇帖子里：[夏3营｜南大AI（终）](https://www.xiaohongshu.com/discovery/item/6aa2c0ab000000000b003fa1?source=webshare&xhsshare=pc_web&xsec_token=AB1NmY2ZWSSkDhBSVaanytFhP2fa_lpslMhcTKraoStGw=&xsec_source=pc_share)。
 
-![夏夜的宿舍书桌前，一名学生在台灯下对着电脑和笔记独自复习。](../.gitbook/assets/baoyan-august-study.png)
+![夏夜的宿舍书桌前，一名学生在台灯下对着电脑和笔记独自复习。](../.gitbook/assets/baoyan-journey/baoyan-august-study.png)
 
 *八月，一个人的宿舍，一遍遍练习。（AI 情境插画）*
 

@@ -26,7 +26,13 @@ gitbook/
   about.md                    关于
   references.md               参考文献
   license.md                  文章内容许可
-  .gitbook/assets/             首页封面、站点图标、文章配图与来源记录
+  .gitbook/assets/             图片资源根目录
+    site/                     首页封面、头像原图与旧版图标
+    baoyan-journey/            《保研历程》配图与 sources.json
+    interfaces-as-epistemic-partners/   《作为认识伙伴的界面》配图与 sources.json
+    calibrating-trust-in-ai-assistance/ 《校准对人工智能助手的信任》配图与 sources.json
+    the-quiet-work-of-attention/       《注意力的静默工作》配图与 sources.json
+    fan-avatar-rounded.svg    线上头像的固定入口
 templates/
   中文文章草稿模板.md           新文章模板，不参与发布
   理工男自救指南写作模板.md     专题提纲与写作提示，不参与发布
@@ -82,9 +88,13 @@ git push origin main
 
 ## 图片与格式
 
-三篇示例文章各配一张 AI 情境插画与一张相关的网络图片。AI 插画在图注中标明；网络图片保留作者、来源链接、许可及修改说明。六张配图的完整来源和生成提示词保存在 `gitbook/.gitbook/assets/example-image-sources.json`，第三方图片遵循各自许可。
+文章图片按文章文件名归档到 `gitbook/.gitbook/assets/<文章文件名（不含 .md）>/`。例如，《保研历程》的配图放在 `gitbook/.gitbook/assets/baoyan-journey/`，正文使用 `../.gitbook/assets/baoyan-journey/图片名.png` 引用。新文章沿用这个规则，同一篇文章的图片与 `sources.json` 放在一起；来源记录中的 `file` 相对所在图片目录。
 
-首页封面为 `gitbook/.gitbook/assets/fan-notes-cover.jpg`，在首页正文第一块显示，位于标题下方、简介之前。站点头像为同目录下的 `fan-avatar-rounded.svg`，内嵌原图 `fan-avatar.jpg`，沿用旧图标的圆角和青色细边框；通过 GitBook 站点外观设置引用仓库中的 SVG，同时用于左上角图标和浏览器标签页图标，浅色和深色模式使用同一张头像；`favicon-zh.svg` 保留为旧版图标。当前连接器无法设置原生封面位置；以后手工设置原生封面时，移除正文中的同一张图，避免重复。
+三篇示例文章各配一张 AI 情境插画与一张相关的网络图片。AI 插画在图注中标明；网络图片保留作者、来源链接、许可及修改说明。各篇的完整来源和生成提示词保存在自身图片目录的 `sources.json` 中，第三方图片遵循各自许可。
+
+首页封面为 `gitbook/.gitbook/assets/site/fan-notes-cover.jpg`，在首页正文第一块显示，位于标题下方、简介之前。头像原图 `fan-avatar.jpg` 和旧版图标 `favicon-zh.svg` 也归档在 `site/` 中。
+
+线上头像保留固定入口 `gitbook/.gitbook/assets/fan-avatar-rounded.svg`。该 SVG 已内嵌头像数据，沿用旧图标的圆角和青色细边框；GitBook 站点外观设置直接引用它的 GitHub 地址，同时用于左上角图标和浏览器标签页图标，浅色和深色模式使用同一张头像。移动这个固定入口前必须同步更新站点外观设置。当前连接器无法设置原生封面位置；以后手工设置原生封面时，移除正文中的同一张图，避免重复。
 
 站点背景通过 GitBook 外观设置维护：使用 `gradient` 主题，浅色 Tint 为 `#2586C8`，深色 Tint 为 `#3677A8`，保留青色主色和默认深色模式。Tint 是 GitBook 生成配色的种子色，并非直接铺在页面上的底色；浅色背景从右上方的淡蓝色 `#E8F4FF` 向左下方的白色过渡，深色背景从蓝灰色 `#293137` 过渡到炭灰色 `#1D1D1D`。避免再使用接近白色的中性 Tint，以免渐变两端颜色过近、看起来像纯色。当前使用原生渐变，没有添加全站背景图片。
 

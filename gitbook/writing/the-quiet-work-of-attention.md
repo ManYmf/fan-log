@@ -10,7 +10,7 @@
 
 > **示例随笔。** 本文是为示例站点撰写的反思性文字，场景经过有意的普遍化处理，不应被视为作者真实履历或个人经历的陈述。
 
-![窗边的人读完一页书后稍作停顿，留意墙上缓慢移动的日光与树影。](../.gitbook/assets/examples-attention-ai.png)
+![窗边的人读完一页书后稍作停顿，留意墙上缓慢移动的日光与树影。](../.gitbook/assets/the-quiet-work-of-attention/examples-attention-ai.png)
 
 *读完一页，也给第二个念头留一点时间。（AI 情境插画）*
 
@@ -30,7 +30,7 @@
 
 然而，也正是在这里，注意力不再只是专注。专注能让光束停在一个位置，注意力却允许被照见的事物反过来回应我们。一本书改变思想行进的速度；一个人的迟疑改变他话语的含义；一阵阴晴改变房间显露出的性格。我们注意到的事物，也在修改那个注意它的人。
 
-![哈默修伊的室内画：一名女子背对观者坐在桌前，窗光落在地板上。](../.gitbook/assets/examples-attention-web.jpg)
+![哈默修伊的室内画：一名女子背对观者坐在桌前，窗光落在地板上。](../.gitbook/assets/the-quiet-work-of-attention/examples-attention-web.jpg)
 
 *窗边的人安静坐着，日光在地板上留下格子。Vilhelm Hammershøi，《斯特兰街的室内，阳光洒在地板上》（译名，1901）。图片来源：[丹麦国立美术馆／Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stue_i_Strandgade_med_solskin_p%C3%A5_gulvet.jpg)，[公有领域](https://creativecommons.org/publicdomain/mark/1.0/)。使用等比例缩略图，未裁剪。*
 

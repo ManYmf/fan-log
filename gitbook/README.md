@@ -2,7 +2,7 @@
 
 ## 欢迎来到我的博客！
 
-![](.gitbook/assets/fan-notes-cover.jpg)
+![](.gitbook/assets/site/fan-notes-cover.jpg)
 
 > **<mark style="color:blue;">人、机器与生活。</mark>**
 
