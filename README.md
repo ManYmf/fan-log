@@ -64,7 +64,7 @@ New-Item -ItemType Directory -Path .drafts-private/my-article/images -Force
 Copy-Item -LiteralPath templates/中文文章草稿模板.md -Destination .drafts-private/my-article/README.md
 ```
 
-《理工男自救指南》使用[专题写作模板](templates/理工男自救指南写作模板.md)，围绕交往实践与恋爱动机反思展开。复制到 `.drafts-private/engineer-self-rescue-guide/README.md` 后补充个人经历；博客中的[文章页面](gitbook/writing/engineer-self-rescue-guide/README.md)目前仅保留待补充提纲。
+《理工男自救指南》已暂时从线上撤下，原文保存在本地 `.drafts-private/engineer-self-rescue-guide/README.md`，不参与 Git 跟踪或 GitBook 发布。继续写作可参考[专题写作模板](templates/理工男自救指南写作模板.md)；以后需要重新公开时，再将文章放回发布目录并恢复相关索引。
 
 ### GitBook 网页预览与同步检查
 
