@@ -35,6 +35,7 @@
 
 ## 近期条目
 
+* 2026-09-22 · [多模态初学路径](learning/multimodal-learning-path/README.md)
 * 2026-09-11 · [保研历程](writing/baoyan-journey/README.md)
 * 2026-09-03 · [作为认识伙伴的界面](writing/interfaces-as-epistemic-partners/README.md)
 * 2026-08-24 · [校准对人工智能助手的信任](writing/calibrating-trust-in-ai-assistance/README.md)

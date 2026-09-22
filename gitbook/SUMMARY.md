@@ -12,6 +12,7 @@
   * [信任校准](research/trust-calibration/README.md)
   * [思考工具](research/tools-for-thought/README.md)
 * [学习](learning/README.md)
+  * [多模态初学路径](learning/multimodal-learning-path/README.md)
   * [CS336](learning/cs336/README.md)
   * [CS231](learning/cs231/README.md)
 * [归档](archive/README.md)

@@ -1,5 +1,25 @@
 # 标签
 
+## 多模态
+
+* [多模态初学路径](../learning/multimodal-learning-path/README.md)
+
+## 深度学习
+
+* [多模态初学路径](../learning/multimodal-learning-path/README.md)
+
+## 计算机视觉
+
+* [多模态初学路径](../learning/multimodal-learning-path/README.md)
+
+## 语言模型
+
+* [多模态初学路径](../learning/multimodal-learning-path/README.md)
+
+## 学习方法
+
+* [多模态初学路径](../learning/multimodal-learning-path/README.md)
+
 ## 拔尖计划
 
 * [拔尖计划之反思](../writing/bajian-plan-reflection/README.md)
