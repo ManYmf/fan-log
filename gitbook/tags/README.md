@@ -1,5 +1,13 @@
 # 标签
 
+## 生活
+
+* [一个句号。](../writing/my-22/README.md)
+
+## 规划
+
+* [一个句号。](../writing/my-22/README.md)
+
 ## 多模态
 
 * [多模态初学路径](../learning/multimodal-learning-path/README.md)
